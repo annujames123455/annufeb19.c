@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
-char str1[]="sjcet";
+char str1[30];
+printf("enter a string:");
+scanf("%s",str1);
 int length;
 for(length=0;str1[length] !='\0';length++);{
 int i =length-1;
@@ -15,4 +17,49 @@ printf("the reverse of the string is:");
 puts(str1);
 return  0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
